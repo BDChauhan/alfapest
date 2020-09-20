@@ -1182,11 +1182,11 @@ section
 11. Footer
 *********************************/
 
-.footer
+/*.footer
 {
 	width: 100%;
 }
-.footer_container
+.footer_contaer
 {
 	width: 100%;
 	background: #060b3a;
@@ -1360,4 +1360,4 @@ section
 .footer_social ul li a i:hover
 {
 	color: #FFFFFF;
-}
+}*/
