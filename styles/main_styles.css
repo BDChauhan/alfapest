@@ -1034,7 +1034,7 @@ section
 .svg rect,
 .svg polygon
 {
-	fill: #20d34a;
+	/*fill: #20d34a;*/
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
