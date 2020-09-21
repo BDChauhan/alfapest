@@ -385,6 +385,12 @@ section
 	font-weight: 500;
 	color: #323232;
 }
+.main_nav ul li a:active
+{
+	font-size: 16px;
+	font-weight: 500;
+	color: #20d34a;
+}
 .hamburger
 {
 	display: none;
@@ -491,7 +497,7 @@ section
 	font-size: 14px;
 	font-weight: 400;
 	color: #8f8e8e;
-	padding-left: 3px;
+	/*padding-left: 3px;*/
 	margin-top: 2px;
 }
 
@@ -843,7 +849,9 @@ section
 .about_text
 {
 	margin-top: 34px;
+
 }
+
 .about_button
 {
 	margin-top: 45px;
@@ -1086,6 +1094,80 @@ section
 }
 
 /*********************************
+10. services_new
+*********************************/
+
+.services_new
+{
+	width: 100%;
+	background: #FFFFFF;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.services_row
+{
+	margin-top: 95px;
+}
+.service_col
+{
+	margin-bottom: 30px;
+}
+.service_new
+{
+	width: 100%;
+	background: #f5f7fa;
+	padding-top: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 20px;
+}
+
+.service_new_title
+{
+	font-size: 20px;
+	font-weight: 700;
+	color: #232323;
+	padding-top: 10px;
+	/*margin-top: 26px;*/
+}
+.service_new_title::before
+{
+	display: block;
+	position: absolute;
+	left: 50%;
+	top: 0;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+	width: 54px;
+	height: 3px;
+	background: #283290;
+	content: '';
+}
+
+.service_new_icon svg
+{
+	width: 70px;
+	height: 70px;
+}
+.service_new_icon
+{
+	width: 70px;
+	height: 70px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.service_new_icon img
+{
+	max-width: 100%;
+}
+
+/**/
+
+
+/*********************************
 10. CTA
 *********************************/
 
@@ -1310,4 +1392,9 @@ section
 .footer_social ul li a i:hover
 {
 	color: #FFFFFF;
+}
+
+.durability{
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
