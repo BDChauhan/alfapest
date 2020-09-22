@@ -197,6 +197,62 @@
 		margin-left: -5px;
 		margin-top: 15px;
 	}
+	/*of elements*/
+	.input_name
+	{
+		margin-bottom: 28px;
+	}
+	.form_col
+	{
+		margin-top: 95px;
+	}
+	.box
+	{
+		width: 322px;
+		height: auto;
+		padding-bottom: 40px;
+		padding-left: 30px;
+	}
+	.tabs
+	{
+		margin-top: 60px;
+	}
+	.milestone_col:not(:last-child)
+	{
+		margin-bottom: 40px;
+	}
+	{
+		height: auto;
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	/*of service*/
+	/*.features
+	{
+		padding-left: 0;
+		padding-right: 0;
+	}*/
+	.features .container
+	{
+		max-width: 720px;
+	}
+	.features .container .row .col
+	{
+		/*padding-left: 45px;
+		padding-right: 45px;*/
+	}
+	.feature
+	{
+		width: 50%;
+	}
+	.feature_content
+	{
+		/*padding-bottom: 69px;*/
+	}
+	.text_section_content
+	{
+		/*margin-top: 65px;*/
+	}
 }
 
 /************
@@ -261,6 +317,16 @@
 	{
 		font-size: 36px;
 	}
+	/*service*/
+	/*.features .container
+	{
+		max-width: 540px;
+	}*/
+	/*elements*/
+	/*.loader_col:not(:last-child)
+	{
+		margin-bottom: 94px;
+	}*/
 }
 
 /************
@@ -301,7 +367,7 @@
 	}
 	.logo_content
 	{
-		padding-left: 25px;
+		padding-left: 25px; /*or 20*/
 	}
 	.logo_text
 	{
@@ -328,11 +394,36 @@
 		top: 20px;
 		right: 20px;
 	}
+
+	/*elements + service*/
+	/*.menu_container
+	{
+		width: 100vw;
+		right: -100vw;
+	}
+	.menu_item a
+	{
+		font-size: 20px;
+	}*/
 	.home
 	{
 		/*height: 100vh;*/
+		/*height: 230px; elements*/
 		margin-top: 50px;
 	}
+	/*both*/
+	/*.home_container
+	{
+		bottom: 47px;
+	}
+	.home_title
+	{
+		font-size: 24px;
+	}
+	.breadcrumbs ul li, .breadcrumbs ul li a
+	{
+		font-size: 12px;
+	}*/
 	.home_content
 	{
 		top: calc(50% + 34px);
@@ -386,6 +477,36 @@
 	{
 		font-size: 28px;
 	}
+	/*elements*/
+	/*.accordion
+	{
+		height: 48px;
+		font-size: 16px;
+	}
+	.accordion_panel p
+	{
+		padding-top: 25px;
+	}
+	.tab
+	{
+		height: 48px;
+		line-height: 48px;
+		font-size: 16px;
+	}*/
+	/*services*/
+	/*.box_emergency_text
+	{
+		font-size:13px;
+	}
+	.feature_content
+	{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.text_section_button
+	{
+		margin-top: 41px;
+	}*/
 }
 
 /************

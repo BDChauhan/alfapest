@@ -5,19 +5,14 @@
 
 [Table of Contents]
 
-1. Fonts
-2. Body and some general stuff
-3. Header
-	3.1 Top Bar
-	3.2 Header Content
-	3.3 Logo
-4. Menu
+
+
 5. Home
-6. Services
+
 7. Features
 8. Text Section
-9. CTA
-10. Footer
+8.milestone
+7.accordition
 
 
 
@@ -27,13 +22,13 @@
 1. Fonts
 ***********/
 
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
+/*@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');*/
 
 /*********************************
 2. Body and some general stuff
 *********************************/
 
-*
+/**
 {
 	margin: 0;
 	padding: 0;
@@ -288,7 +283,7 @@ section
 .section_title_light h2
 {
 	color: #FFFFFF;
-}
+}*/
 
 /*********************************
 3. Header
@@ -299,7 +294,7 @@ section
 /*********************************
 4. Menu
 *********************************/
-
+/*
 .menu_container
 {
 	position: fixed;
@@ -443,7 +438,7 @@ section
 {
 	font-size: 13px;
 	color: #272727;
-}
+}*/
 
 /*********************************
 5. Home
@@ -727,7 +722,7 @@ section
 9. CTA
 *********************************/
 
-.cta
+/*.cta
 {
 	width: 100%;
 	padding-top: 131px;
@@ -763,7 +758,7 @@ section
 .cta_button
 {
 	margin-top: 38px;
-}
+}*/
 
 /*********************************
 10. Footer
@@ -1041,6 +1036,8 @@ section
 	float: right;
 	margin-left: 15px;
 }
+
+/*added*/
 #wsup .section_title::before{
 	background: white;
 	position: absolute;

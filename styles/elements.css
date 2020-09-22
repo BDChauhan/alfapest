@@ -5,12 +5,7 @@
 
 [Table of Contents]
 
-1. Fonts
-2. Body and some general stuff
-3. Header
-	3.1 Top Bar
-	3.2 Header Content
-	3.3 Logo
+
 4. Menu
 5. Home
 6. Contact
@@ -24,13 +19,13 @@
 1. Fonts
 ***********/
 
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
+/*@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');*/
 
 /*********************************
 2. Body and some general stuff
 *********************************/
 
-*
+/**
 {
 	margin: 0;
 	padding: 0;
@@ -284,13 +279,13 @@ section
 .section_title_light h2
 {
 	color: #FFFFFF;
-}
+}*/
 
 /*********************************
 3. Header
 *********************************/
 
-.header
+/*.header
 {
 	display: block;
 	position: fixed;
@@ -304,12 +299,12 @@ section
 {
 	top: -48px;
 }
-
+*/
 /*********************************
 3.1 Top Bar
 *********************************/
 
-.top_bar
+/*.top_bar
 {
 	width: 100%;
 	background: #283290;
@@ -348,12 +343,12 @@ section
 	padding-left: 38px;
 	padding-right: 38px;
 }
-
+*/
 /*********************************
 3.2 Header Content
 *********************************/
 
-.header_container
+/*.header_container
 {
 	width: 100%;
 	background: #FFFFFF;
@@ -390,13 +385,13 @@ section
 {
 	font-size: 24px;
 	color: #272727;
-}
+}*/
 
 /*********************************
 3.3 Logo
 *********************************/
 
-.logo_container_outer
+/*.logo_container_outer
 {
 	position: absolute;
 	top: 0;
@@ -489,13 +484,13 @@ section
 	color: #8f8e8e;
 	padding-left: 3px;
 	margin-top: 2px;
-}
+}*/
 
 /*********************************
 4. Menu
 *********************************/
 
-.menu_container
+/*.menu_container
 {
 	position: fixed;
 	top: 0;
@@ -638,7 +633,7 @@ section
 {
 	font-size: 13px;
 	color: #272727;
-}
+}*/
 
 /*********************************
 5. Home
