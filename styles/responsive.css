@@ -183,7 +183,7 @@
 	}
 	.footer_column
 	{
-		padding-top: 75px;
+		padding-top: 35px;
 	}
 	.copyright_content
 	{
@@ -204,13 +204,13 @@
 	}
 	.form_col
 	{
-		margin-top: 95px;
+		margin-top: 20px;
 	}
 	.box
 	{
 		width: 322px;
 		height: auto;
-		padding-bottom: 40px;
+		padding-bottom: 30px;
 		padding-left: 30px;
 	}
 	.tabs
@@ -327,6 +327,18 @@
 	{
 		margin-bottom: 94px;
 	}*/
+	.working_hours
+	{
+		position: relative;
+		top: auto;
+		-webkit-transform: none;
+		-moz-transform: none;
+		-ms-transform: none;
+		-o-transform: none;
+		transform: none;
+		left: auto;
+		margin-top: 95px;
+	}
 }
 
 /************
@@ -443,7 +455,7 @@
 	}
 	.menu_container
 	{
-		width: 100vw;
+		/*width: 100vw;*/
 		right: -100vw;
 	}
 	.menu_item a
@@ -507,6 +519,16 @@
 	{
 		margin-top: 41px;
 	}*/
+	.working_hours
+	{
+		padding-right: 30px;
+		margin-top: 30px;
+	}
+	.google_map
+	{
+		height: 350px;
+	}
+
 }
 
 /************
