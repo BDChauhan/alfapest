@@ -32,7 +32,7 @@
 									<li class="menu_item menu_mm "><a href="index.html" class="active">Home</a></li>
 									<li class="menu_item menu_mm"><a href="alfashield.html">AlfaShield</a></li>
 									<li class="menu_item menu_mm"><a href="pestcontrol.html">Pest control</a></li>
-									<li class="menu_item menu_mm"><a href="news.html">News&amp;Media</a></li>
+									<!-- <li class="menu_item menu_mm"><a href="news.html">News&amp;Media</a></li> -->
 									<li class="menu_item menu_mm"><a href="#">Contact Us</a></li>
 								</ul>
 							</nav>
@@ -83,7 +83,7 @@
 					<li class="menu_item menu_mm"><a href="index.html">Home</a></li>
 					<li class="menu_item menu_mm"><a href="alfashield.html">AlfaShield</a></li>
 					<li class="menu_item menu_mm"><a href="pestcontrol.html">Pest control</a></li>
-					<li class="menu_item menu_mm"><a href="news.html">News&amp;Media</a></li>
+					<!-- <li class="menu_item menu_mm"><a href="news.html">News&amp;Media</a></li> -->
 					<li class="menu_item menu_mm"><a href="contact.html">Contact Us</a></li>
 				</ul>
 			</div>
@@ -128,28 +128,30 @@
 				
 
 				<!-- Contact Info -->
-				<div class="col-lg-6">
+				<!-- <div class="col-lg-6">
 					
 					<div class="about_text">
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec luctus lacus. Vestibulum viverra elit sed commodo sollicitudin. Nulla quis iaculis mi. Donec hendrerit semper dapibus. Nullam facilisis molestie risus, ac ullamcorper erat viverra a. Mauris nisi diam, volutpat nec ultricies vel, vestibulum nec elit. Vivamus pharetra enim ut neque condimentum, id rhoncus metus scelerisque.</p>
 					</div>
-				</div>
+				</div> -->
 
 				<!-- Contact Form -->
 				<div class="col-lg-6 form_col">
 					<div class="contact_form_container">
-						<form action="#" id="contact_form" class="contact_form">
+						<form method="POST" action="form.php" id="contact_form" class="contact_form">
 							<div class="row">
 								<div class="col-md-6 input_col">
-									<div class="input_container input_name"><input id="candid_name" type="text" class="contact_input" placeholder="Name" required="true"></div>
+									<div class="input_container input_name"><input name="name" id="candid_name" type="text" class="contact_input" minlength="3" placeholder="Name" required="true"></div>
 								</div>
 								<div class="col-md-6 input_col">
-									<div class="input_container"><input type="email" class="contact_input" placeholder="E-mail" required="required"></div>
+									<div class="input_container"><input name="mobile" type="text" pattern="[6789][0-9]{9}" class="contact_input" name="mobile" id="mobile" placeholder="Mobile No" title="Mobile no should start with digits 6/7/8/9 and must contain 10 digits. e.g. 98XXXXXX01." required></div>
 								</div>
 							</div>
-							<div class="input_container"><input type="text" class="contact_input" placeholder="Subject" required="required"></div>
-							<div class="input_container"><textarea class="contact_input contact_text_area" placeholder="Message" required="required"></textarea></div>
-							<button class="button contact_button"><a href="#">send</a></button>
+						
+							<div class="input_container"><input name="mail" type="email" class="contact_input" placeholder="E-mail" required="required"></div>
+							<!-- <div class="input_container"><input type="text" class="contact_input" placeholder="Subject" required="required"></div> -->
+							<div class="input_container"><textarea name="message" class="contact_input contact_text_area" placeholder="Message" title="Message should be atleast 15 characters long and alphabets only." minlength="15" required="required"></textarea></div>
+							<button class="button contact_button"><a>send</a></button>
 						</form>
 					</div>
 				</div>
@@ -172,7 +174,7 @@
 						</div> -->
 
 						<!-- Working Hours -->
-						<div class="box working_hours">
+						<!-- <div class="box working_hours">
 							<div class="box_icon d-flex flex-column align-items-start justify-content-center"><div style="width:29px; height:29px;"><img src="images/alarm-clock.svg" alt=""></div></div>
 							<div class="box_title">Working Hours</div>
 							<div class="working_hours_list">
@@ -191,7 +193,7 @@
 									</li>
 								</ul>
 							</div>
-						</div>
+						</div> -->
 
 					</div>
 
@@ -237,10 +239,10 @@
 						<div class=" footer_column">
 							<div class="footer_title">Useful Links<br></div>
 							<ul>
-								<li><a href="#">FAQ</a></li>
-								<li><a href="#">Services</a></li>							
-								<li><a href="#">About us</a></li>
-								<li><a href="news.html">News</a></li>
+								<li><a href="alfashield.html#alfa-faq">FAQ</a></li>
+								<li><a href="index.html#alfa-services">Services</a></li>							
+								<li><a href="index.html#alfa-about">About us</a></li>
+								<!-- <li><a href="news.html">News</a></li> -->
 								<li><a href="#">Contact</a></li>								
 							</ul>
 						</div>
